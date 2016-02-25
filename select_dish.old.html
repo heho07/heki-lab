@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link type="text/css" rel="stylesheet" href="stylesheet2.css" />
+	<title>Dinner planner</title> 
+</head>
+<body>
+	<div id="header">
+		<h1 id="start">HOMELETTE</h1>
+		<p id="quote">From the best chefs in the world directly in your kitchen</p>
+
+	</div>
+	<div id="view2">
+		<h3>My Dinner</h3><br>
+		<h4>People 	&nbsp; </h4>
+
+			<span id="makeNumberListHTML"></span>
+
+
+		<div id="options"> 
+			<p id="menu"> Dish Name &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; Cost</p>
+		</div>
+		<br>
+		<span id = "menu"></span>
+		<div id="button">Confirm dinner</div>
+
+		
+		<!-- LÄGG IN DET HÄR SOM INPUT TILL ADD DISH I CONTROLLER2
+		<form>
+			<input action = "" id="dishButton" type="text"  value="dish id">
+		</form>-->
+
+		
+			<select id = "mySelect">
+  				<option value = "1" >1</option>
+  				<option value = "2">2</option>
+  				<option value = "3">3</option>
+  				<option value = "101">101</option>
+			</select>
+			<!--<input type = "submit" id = "dishButton">-->
+		
+
+	</div>
+	<div id="search">
+
+		<p id = "searchP"> SELECT DISH </P>
+		<br>
+		<hr id = "searchLine">
+
+		<input id = "searchInput" type="text" name="lastname" value="Enter key words">
+		<input id = "searchButton" type="submit" value = "Search">
+		
+		<select id = searchSelect>
+			<option value = "one">Main</option>
+			<option value = "two">Side</option>
+		</select>
+
+	</div>
+	<div id="view3">
+	<table>
+		<tr>
+			<span id = "getTable"></span>
+		</tr>
+
+	</table>
+	</div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/view1.js"></script>
+	<script src="js/view/view2.js"></script>
+	<script src="js/view/view3.js"></script>
+	<script src="js/view/view4.js"></script>
+	<script src="js/view/view5.js"></script>
+	<script src="js/view/view6.js"></script>
+	<script src="js/controller2.js"></script>
+</body>
+</html>
